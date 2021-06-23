@@ -55,14 +55,32 @@ input{
 
 #inscription{
     position:relative; 
-    top: 11%;
+    top: 9%;
     left: 15%;
     background-color: rgba(179, 206, 204, 0.534);
     font-family:"Montserrat", sans-serif;
-}    
+    margin: 0;
+}
+#autre{
+    position:relative; 
+    top: 9%;
+    left: 60%;
+    background-color: rgba(179, 206, 204, 0.534);
+    font-family:"Montserrat", sans-serif;
+}
+.box{
+    display: block;
+    height: 700px;
+    width: 500px;
+    background-color: rgba(179, 206, 204, 0.534);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur( 7.0px );
+    border-radius: 30px;
+} 
 
 .style{
     background:rgb(120, 203, 209);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
 }
 
 #insc-title{
@@ -73,57 +91,84 @@ input{
     font-size: 32px;
     font-weight: 1000;
     font-family:"Montserrat", sans-serif;
-    text-shadow: 3px 3px rgba(42, 43, 35, 0.781);
+    text-shadow: 0 3px 3px rgba(42, 43, 35, 0.781);
 }
-
 #conect-title{
     position: relative;
-    top: 44%;
+    top: 48%;
     left: 32%;
     background: rgba(255, 255, 255, 0);
     font-size: 32px;
     font-weight: 1000;
     font-family:"Montserrat", sans-serif;
-    text-shadow: 3px 3px rgba(42, 43, 35, 0.781);
+    text-shadow: 0 3px 3px rgba(42, 43, 35, 0.781);
 }
 
 #user_new{
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 15%;
     border-radius: 15px;
+    
 }
-
 #password_new{
     position: absolute;
-    top: 32%;
+    top: 29%;
     left: 15%;
     border-radius: 15px;
 }
-
 #user{
     position: absolute;
     top: 64%;
     left: 15%;
     border-radius: 15px;
 }
-
 #password{
     position: absolute;
     top: 76%;
     left: 15%;
     border-radius: 15px;
 }
-
-.box{
-    display: block;
-    height: 650px;
-    width: 500px;
-    background-color: rgba(179, 206, 204, 0.534);
+#compte{
+    height: 40px;
+    width: 250;
+    background: rgba(255, 208, 0);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
-    backdrop-filter: blur( 7.0px );
-    border-radius: 30px;
+    border-radius: 15px;
+    position:absolute;
+    top: 41%;
+    left: 24%;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    color: black;
+    font-size: 22px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    line-height: 35px;
 }
+#connect{
+    height: 40px;
+    width: 220;
+    background: rgba(255, 208, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+    border-radius: 15px;
+    position:absolute;
+    top: 88%;
+    left: 27%;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    color: black;
+    font-size: 22px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+
+
 
 #lign1{
     display:flex;
