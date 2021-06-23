@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+*{
+  margin: 0;
+  background-color: rgb(203, 233, 243);
+}
+.text {
+  animation: inherit;                             
+  font-family:"Montserrat", sans-serif;           /*police d'écriture*/
+  font-size: 25px;
+  position: fixed;top: 10%; right:10%;
+  color: rgba(0, 0, 0, 0.952);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(146, 140, 140);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(219, 213, 213);
+}
+
+#flechea {
+  height: 800px;
+  width: 100px;
+  background-color: rgb(0, 129, 167);
+  margin-top: -100px;
+  transform: rotate(-45deg);
+  position: fixed; right: 91%; top: -6.7%;
+}
+#flecheb {
+  height: 800px;
+  width: 100px;
+  background-color: rgb(0, 129, 167);
+  transform: rotate(45deg);
+  position: fixed; right: 91%; top: 34%;
+}
+
+#flechec {
+  height: 800px;
+  width: 100px;
+  background-color: rgb(85, 163, 48);
+  transform: rotate(45deg);
+  position: fixed; right: 75%; top: 34%;
+}
+
+#fleched {
+  height: 800px;
+  width: 100px;
+  background-color: rgb(85, 163, 48);
+  transform: rotate(-45deg);
+  position: fixed; right: 75%; top: -17%;
+}
+
+#carre {
+  height: 100px;
+  background: rgba(179, 206, 204, 0.534);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+  backdrop-filter: blur( 7.0px );
+}
+
+#contact {
+  height: 40px;
+  width :150px;
+  position:fixed;right: 2%;top: 25%;
+  background: rgba(255, 208, 0);                             /*couleur du verre*/
+  box-shadow: 0 8px 32px 0 rgba(42, 43, 35, 0.781);          /*couleur ombre*/
+  backdrop-filter: blur( 7.0px );                               /*netteté de l'effet "verre"*/
+  border-radius: 30px;                                          /*arrondissement bordure*/
+  text-align: center;
+  line-height: 35px;
+  color: black;
+  font-size: 22px;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 1000;
+  list-style-type: none;
+}
+
+.box{
+  display: block;
+  height: 200px;
+  width: 500px;
+  background: rgba(179, 206, 204, 0.534);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+  backdrop-filter: blur( 7.0px );
+  border-radius: 30px;
+}
+
+#fr{
+  position:relative; 
+  top: 30%; 
+  left: 30%;
+  background-image: url(images/logo-lefrancais.png);
+  background-repeat: no-repeat;
+  background-size:70%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#maths{
+  position:relative;
+  top: 30%;
+  left: 60%;
+  background-image: url(images/maths.png);
+  background-repeat: no-repeat;
+  background-size:70%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#phylo{
+  position:relative; 
+  top: 70%; 
+  left: 30%;
+  background-image: url(images/phylo.png);
+  background-repeat: no-repeat;
+  background-size:110%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#physique{
+  position:relative; 
+  top: 70%;
+  left: 60%;
+  background-image: url(images/physique.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#HG{
+  position:relative; 
+  top: 110%; 
+  left: 30%;
+  background-image: url(images/HG.png);
+  background-repeat: no-repeat;
+  background-size:80%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#SVT{
+  position:relative; 
+  top: 110%;
+  left: 60%;
+  background-image: url(images/SVT.png);
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#SES{
+  position:relative; 
+  top: 150%; 
+  left: 30%;
+  background-image: url(images/SES.png);
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+#SNT{
+  position:relative; 
+  top: 150%;
+  left: 60%;
+  background-image: url(images/SNT.png);
+  background-repeat: no-repeat;
+  background-size:120%;
+  background-position-x:50%;
+  background-position-y:50%;
+  list-style-type: none;
+}
+
+.li{
+  list-style-type: none;
+}
+
+#lign1{
+  display:flex;
+  flex-direction: row;
+}
+#lign2{
+  display:flex;
+  flex-direction: row;
+}
+#lign3{
+  display:flex;
+  flex-direction: row;
+}
+#lign4{
+  display:flex;
+  flex-direction: row;
+}

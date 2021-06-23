@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+*{
+  margin: 0;
+  background-color: rgb(114, 114, 114);
+}
+.text {
+  animation: inherit;                             
+  font-family:"Montserrat", sans-serif;           /*police d'écriture*/
+  font-size: 25px;
+  position: fixed;top: 10%; right:10%;
+  color: rgba(0, 0, 0, 0.952);
+}
+
+#carre {
+  height: 100px;
+  background: rgba(182, 182, 182, 0.534);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+  backdrop-filter: blur( 7.0px );
+}

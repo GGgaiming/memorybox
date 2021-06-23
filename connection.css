@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+
+*{
+  margin: 0;
+  background-color: rgb(203, 233, 243);
+}
+
+.text {
+  animation: inherit;                             
+  font-family:"Montserrat", sans-serif;           /*police d'écriture*/
+  font-size: 25px;
+  position: fixed;top: 10%; right:10%;
+  color: rgba(0, 0, 0, 0.952);
+}
+
+input{
+    padding: 0;
+    border-radius: 12px;
+    border-style:groove;
+    border-color: rgb(82, 138, 134);
+    border-image: none;
+    color: rgb(59, 59, 59);
+    font-family:"Montserrat", sans-serif;
+    font-size: 18px;  
+}
+
+.li{
+    list-style-type: none;
+}
+
+#carre {
+    height: 100px;
+    background: rgba(179, 206, 204, 0.534);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur( 7.0px );
+}
+
+#menu {
+    height: 40px;
+    width :150px;
+    position:fixed;right: 2.5%;top: 25%;
+    background: rgba(255, 208, 0);                             /*couleur du verre*/
+    box-shadow: 0 8px 32px 0 rgba(42, 43, 35, 0.781);          /*couleur ombre*/
+    backdrop-filter: blur( 7.0px );                               /*netteté de l'effet "verre"*/
+    border-radius: 30px;                                          /*arrondissement bordure*/
+    text-align: center;
+    line-height: 35px;
+    color: black;
+    font-size: 25px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 1000;
+    list-style-type: none;
+}
+
+#inscription{
+    position:relative; 
+    top: 11%;
+    left: 15%;
+    background-color: rgba(179, 206, 204, 0.534);
+    font-family:"Montserrat", sans-serif;
+}    
+
+.style{
+    background:rgb(120, 203, 209);
+}
+
+#insc-title{
+    position: relative;
+    top: 7%;
+    left: 32%;
+    background: rgba(255, 255, 255, 0);
+    font-size: 32px;
+    font-weight: 1000;
+    font-family:"Montserrat", sans-serif;
+    text-shadow: 3px 3px rgba(42, 43, 35, 0.781);
+}
+
+#conect-title{
+    position: relative;
+    top: 44%;
+    left: 32%;
+    background: rgba(255, 255, 255, 0);
+    font-size: 32px;
+    font-weight: 1000;
+    font-family:"Montserrat", sans-serif;
+    text-shadow: 3px 3px rgba(42, 43, 35, 0.781);
+}
+
+#user_new{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    border-radius: 15px;
+}
+
+#password_new{
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    border-radius: 15px;
+}
+
+#user{
+    position: absolute;
+    top: 64%;
+    left: 15%;
+    border-radius: 15px;
+}
+
+#password{
+    position: absolute;
+    top: 76%;
+    left: 15%;
+    border-radius: 15px;
+}
+
+.box{
+    display: block;
+    height: 650px;
+    width: 500px;
+    background-color: rgba(179, 206, 204, 0.534);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur( 7.0px );
+    border-radius: 30px;
+}
+
+#lign1{
+    display:flex;
+    flex-direction: row;
+}
