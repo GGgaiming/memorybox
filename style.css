@@ -24,36 +24,13 @@
   background: rgb(219, 213, 213);
 }
 
-#flechea {
-  height: 800px;
-  width: 100px;
-  background-color: rgb(0, 129, 167);
-  margin-top: -100px;
-  transform: rotate(-45deg);
-  position: fixed; right: 91%; top: -6.7%;
-}
-#flecheb {
-  height: 800px;
-  width: 100px;
-  background-color: rgb(0, 129, 167);
-  transform: rotate(45deg);
-  position: fixed; right: 91%; top: 34%;
-}
-
-#flechec {
-  height: 800px;
-  width: 100px;
-  background-color: rgb(85, 163, 48);
-  transform: rotate(45deg);
-  position: fixed; right: 75%; top: 34%;
-}
-
-#fleched {
-  height: 800px;
-  width: 100px;
-  background-color: rgb(85, 163, 48);
-  transform: rotate(-45deg);
-  position: fixed; right: 75%; top: -17%;
+#fleche {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url("triangle1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #carre {
@@ -69,7 +46,7 @@
   position:fixed;right: 2%;top: 25%;
   background: rgba(255, 208, 0);                             /*couleur du verre*/
   box-shadow: 0 8px 32px 0 rgba(42, 43, 35, 0.781);          /*couleur ombre*/
-  backdrop-filter: blur( 7.0px );                               /*netteté de l'effet "verre"*/
+  backdrop-filter: blur( 7.0px );                        /*netteté de l'effet "verre"*/
   border-radius: 30px;                                          /*arrondissement bordure*/
   text-align: center;
   line-height: 35px;
@@ -92,8 +69,6 @@
 
 #fr{
   position:relative; 
-  top: 30%; 
-  left: 30%;
   background-image: url(images/logo-lefrancais.png);
   background-repeat: no-repeat;
   background-size:70%;
@@ -104,8 +79,6 @@
 
 #maths{
   position:relative;
-  top: 30%;
-  left: 60%;
   background-image: url(images/maths.png);
   background-repeat: no-repeat;
   background-size:70%;
@@ -116,8 +89,6 @@
 
 #phylo{
   position:relative; 
-  top: 70%; 
-  left: 30%;
   background-image: url(images/phylo.png);
   background-repeat: no-repeat;
   background-size:110%;
@@ -128,8 +99,6 @@
 
 #physique{
   position:relative; 
-  top: 70%;
-  left: 60%;
   background-image: url(images/physique.png);
   background-repeat: no-repeat;
   background-size:100%;
@@ -140,8 +109,6 @@
 
 #HG{
   position:relative; 
-  top: 110%; 
-  left: 30%;
   background-image: url(images/HG.png);
   background-repeat: no-repeat;
   background-size:80%;
@@ -152,8 +119,6 @@
 
 #SVT{
   position:relative; 
-  top: 110%;
-  left: 60%;
   background-image: url(images/SVT.png);
   background-repeat: no-repeat;
   background-size:50%;
@@ -164,8 +129,6 @@
 
 #SES{
   position:relative; 
-  top: 150%; 
-  left: 30%;
   background-image: url(images/SES.png);
   background-repeat: no-repeat;
   background-size:50%;
@@ -176,8 +139,6 @@
 
 #SNT{
   position:relative; 
-  top: 150%;
-  left: 60%;
   background-image: url(images/SNT.png);
   background-repeat: no-repeat;
   background-size:120%;
@@ -188,21 +149,56 @@
 
 .li{
   list-style-type: none;
+  justify-content: space-evenly;
+  padding: 25px;
+  padding-top: 75px;
 }
 
 #lign1{
   display:flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 #lign2{
   display:flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 #lign3{
   display:flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 #lign4{
   display:flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
+
+@media (max-width: 1320px) {
+
+  .li {
+    padding-left: 25%;
+  }
+
+  #lign1{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #lign2{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #lign3{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  #lign4{
+    display:flex;
+    flex-direction: column;
+  }
+}
+
